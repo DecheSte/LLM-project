@@ -1,0 +1,33 @@
+# 1. 忽略 Python 运行缓存
+__pycache__/
+*.pyc
+
+# 2. 忽略深度学习模型权重文件
+*.pt
+*.pth
+*.ckpt
+
+# 3. 忽略各种测试与过渡脚本
+demo1.py
+demo2.py
+gradio_demo.py
+pose_detect.py
+pose_with_qwen.py
+render_voice.py
+run_qwen.py
+test.py
+
+# 4. 忽略本地环境变量
+.env
+
+# 忽略虚拟环境文件夹
+.venv/
+venv/
+env/
+ENV/
+
+# 忽略所有 safetensors 格式的模型权重
+*.safetensors
+
+# 忽略整个 asset 文件夹
+asset/
