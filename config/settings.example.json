@@ -1,0 +1,7 @@
+{
+  "camera": {"index": 0, "model": "yolov8n-pose.pt", "device": "cpu", "width": 640, "height": 480},
+  "posture": {"mode": "pixels", "threshold": 120, "confidence": 0.5, "duration": 5, "cooldown": 30, "max_gap": 1.5},
+  "qwen": {"backend": "transformers", "model": "Qwen/Qwen2.5-7B-Instruct", "load_in_4bit": true, "base_url": "http://127.0.0.1:8000/v1", "timeout": 120, "max_new_tokens": 128},
+  "tts": {"base_url": "http://127.0.0.1:9880", "ref_audio_path": "", "prompt_text": "", "prompt_lang": "zh", "timeout": 120},
+  "runtime": {"history_dir": "runtime/history", "retry_delay": 30}
+}
